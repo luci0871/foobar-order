@@ -54,9 +54,14 @@ h1 {
 
 #progress-bar-container li.active:before,
 #progress-bar-container li:hover:before {
-    border: solid 2px #fff;
+    /* border: solid 2px #fff;
 
-    background: linear-gradient(to right, #6e2ac7 0%, #fff 100%);
+    background: linear-gradient(to right, #6e2ac7 0%, #fff 100%); */
+
+    color: #fcc050;
+    background: #f1a248;
+    box-shadow: 0 0 10px #f06a42, 0 0 40px #e2f348, 0 0 60px #f1bd4d;
+    transition-delay: 0.5s;
 }
 
 #progress-bar-container li {
