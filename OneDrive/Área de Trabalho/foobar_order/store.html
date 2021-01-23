@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+ <html>
+
+ <head>
+     <title>FooBar32</title>
+     <meta name="description" content="This is the description">
+     <link rel="stylesheet" href="styles.css" />
+     <script src="store.js" async></script>
+ </head>
+
+ <body>
+     <header class="main-header">
+         <h1 class="bar-name bar-name-large">FooBar32</h1>
+     </header>
+
+     <main>
+         <section id="beers"></section>
+     </main>
+
+     <template id="storageTemp">
+         <article class="beer">
+             <img src="Images/elhefe.png">
+             <h2>El Heffe</h2>
+             <h4 class="beer_price">DKK 39.00</h4>
+             <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+         </article>
+     </template>
+
+
+     </section>
+     <section class="container content-section">
+         <h2 class="section-header">CART</h2>
+         <div class="cart-row">
+             <span class="cart-item cart-header cart-column">ITEM</span>
+             <span class="cart-price cart-header cart-column">PRICE</span>
+             <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+         </div>
+         <div class="cart-items">
+         </div>
+         <div class="cart-total">
+             <strong class="cart-total-title">Total</strong>
+             <span class="cart-total-price">DKK0</span>
+         </div>
+         <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+     </section>
+ </body>
+
+ </html>
